@@ -8,6 +8,7 @@ body {
     padding: 0px;
 
 }
+
 /* start header*/
 .logo {
 
@@ -20,6 +21,7 @@ body {
 
 .nav-cont {
     background-color: #FFF4E7;
+  
 }
 
 .nav-items {
@@ -82,6 +84,10 @@ button {
 
 }
 
+.title p {
+    font-size: 16px;
+}
+
 .title-btn {
     background-color: #FF900E;
     color: #ffff;
@@ -100,6 +106,7 @@ button {
 .banner-img {
     text-align: center;
 }
+
 /* end header*/
 /* start start Features sechtion*/
 .main {
@@ -109,20 +116,14 @@ button {
 
 
 .Features-text {
-
-    margin: 100px 40px;
-    
-
-}
-
-.Features-text {
     height: 106px;
     width: 468px;
+    margin: 260px 30px;
 }
 
 .Features-text h3 {
     font-size: 45px;
-    margin: 50px 20px;
+    margin: 50px 10px;
 }
 
 .features-btn {
@@ -131,10 +132,13 @@ button {
     background-color: #FF900E;
     color: #ffff;
     border: none;
+    font-size: 20px;
+    border-radius: 5px;
 }
 
 .Features-img-up {
     display: flex;
+    margin: 50px 120px;
 }
 
 .img-all {
@@ -142,28 +146,139 @@ button {
     height: 342px;
     width: 342px;
     text-align: center;
-    margin: 5px;
+
 }
 
 .Features-img-down {
     display: flex;
+    margin: -30px 120px;
+}
+
+.ql {
+    color: #727272;
+    font-size: 45px;
 
 }
-.enjoy-main{
-    display: flex;
+
+.oo {
+    color: #131313;
+    font-size: 45px;
+    font-weight: bold;
 }
-.enjoy{
-    background-image: url(imagess/architect.png);
+
+.f {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.enjoy-main {
+    display: flex;
     height: 1060px;
+    width: 1440px;
+    margin-top: 50px;
+}
+
+.enjoy-img {
     width: 100%;
     position: absolute;
-    background-repeat: no-repeat;
-   text-align: center;
-   margin-right: 200px;
-}
-.enjoy-text{
-    width: 582px;
-    height: 982px;
+    display: block;
+    margin-left: auto;
 
 }
+
+.enjoy-img img {
+    height: 1060px;
+    width: 800px;
+    margin: 40px 120px;
+}
+
+.enjoy-text {
+    width: 582px;
+    height: 982px;
+    margin: 50px 120px;
+
+}
+
+.enjoy-text h2 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
 /* end Features sechtion*/
+.some-f {
+    margin: 40px 120px;
+
+}
+
+.some-f h2 {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.some-f p {
+    font-size: 16px;
+}
+
+.some-box {
+    display: flex;
+    margin: 50px 120px;
+    text-align: center;
+
+}
+
+/* Our_Sponsports section */
+.Our_Sponsports {
+    width: 542px;
+    height: 129px;
+    text-align: center;
+    margin: 50px 450px;
+}
+
+.company-img img {
+    height: 50px;
+    width: 153px;
+    margin: 20px 70px;
+    text-align: center;
+}
+
+.company-img {
+    display: flex;
+}
+
+.footer-secation {
+    text-align: center;
+    height: 80px;
+    width: 1440px;
+    margin: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #FFF4E7;
+    color: #727272;
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 576px) {
+    
+    .logo {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 40px 15px;
+       
+    }
+    .nav-banner {
+        /* display: flex; */
+    
+    }
+    .nav-banner ul {
+    margin-top: 50px;
+    height: 26px;
+    top: 63px;
+}
+.nav-banner ul li a {
+    display: table-column-group;
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+}
+}
